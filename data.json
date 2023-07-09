@@ -1,0 +1,150 @@
+[
+    {
+        "marca":"LENOVO",
+        "equipo":"Laptop Lenovo IdeaPad 5i Intel Core i7 11° Gen 8GB 512GB Táctil  Quad Core",
+        "precio":"1,999",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/19808357_1?wid=1500&hei=1500&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/19808357/Laptop-Lenovo-IdeaPad-5i-Intel-Core-i7-11%C2%B0-Gen-8GB-512GB-Tactil/19808357"
+    },
+    {
+        "marca":"HP - Gama Empresarial",
+        "equipo":"Laptop HP EliteBook 840 G3 Core i5-6300u 2.4 Ghz / 8GB / 256GB SSD - 14",
+        "precio":"1,499",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121153275_2923704_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/121153275/Laptop-HP-EliteBook-840-G3-Core-i5-6300u-2.4-Ghz-8GB-256GB-SSD-14-Gama-Empresarial/121153276"
+    },
+    {
+        "marca":"LENOVO",
+        "equipo":"Laptop Thinkbook Intel Core i7 11°Gen 8GB RAM 512GB SSD 14 FHD MX450 W10 Pro",
+        "precio":"3,699",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_120255107_2617870_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/120255107/Laptop-Thinkbook-Intel-Core-i7-11%C2%B0Gen-8GB-RAM-512GB-SSD-14-FHD-MX450-W10-Pro/120255108"
+    },
+    {
+        "marca":"LENOVO",
+        "equipo":"Laptop IdeaPad 3 Intel Core i3 11°Gen 12GB RAM 256GB SSD 15.6''",
+        "precio":"1,499",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_120194706_2593863_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/120194706/Laptop-IdeaPad-3-Intel-Core-i3-11%C2%B0Gen-12GB-RAM-256GB-SSD-15.6''-FHD-W10-81X800E8LM/120194707"
+    },
+    {
+        "marca":"DELL",
+        "equipo":"Laptop DELL Ryzen 5 Ram 8GB SSD 256GB Pant 14'' HD, Vostro 14 FreeDOS",
+        "precio":"2,190",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121418805_3028171_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/121418805/Laptop-Dell-Vostro-3405-14-,-Ryzen-5-3450U,-8GB-RAM,-256GB-SSD,-no-tiene-windows/121418806"
+    },
+    {
+        "marca":"MICROSOFT",
+        "equipo":"Surface Laptop 5 15 '' 16GB RAM 512GB SSD Platinum Metal - Laptop 5 para negocios ",
+        "precio":"11,399",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121299324_2982657_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/121299324/Surface-Laptop-5-15-16GB-RAM-512GB-SSD-Platinum-Metal/121299325"
+    },
+    {
+        "marca":"ACER",
+        "equipo":"Laptop Acer Predator Triton Intel i7-12700H 16GBRAM 512GB SSD",
+        "precio":"4,699",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121804306_3190419_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/121804306/Laptop-Acer-Predator-Triton-Intel-i7-12700H-16GBRAM-512GB-SSD-NVIDIA-RTX-3060-6GB-14.1-/121804307"
+    },
+    {
+        "marca":"HP",
+        "equipo":"Laptop HP Victus 15-fb0101la Ryzen 5 5600H Ram 8GB Disco 512GB SSD Video",
+        "precio":"2,599",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_121329226_2992334_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/121329226/Laptop-HP-Victus-15-fb0101la-Ryzen-5-5600H-Ram-8GB-Disco-512GB-SSD-Video-GTX1650-4GB-15.6%E2%80%B3-FHD/121329227?exp=linio"
+    },
+    {
+        "marca":"HP",
+        "equipo":"Laptop HP 15-DY5011LA i7-1255U, 8GB, SSD 512GB, HD 15.6'' (6H9F3LA)",
+        "precio":"2,799",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_118817343_2194930_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/118817343/Laptop-HP-15-DY5011LA-i7-1255U,-8GB,-SSD-512GB,-HD-15.6-(6H9F3LA)./118817344?exp=linio"
+    },
+    {
+        "marca":"MSI",
+        "equipo":"Laptop MSI Crosshair 15 B12UEZO, i7-12700H, 16GB, SSD1TB, 6GB RTX3060",
+        "precio":"8,599",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_118969289_2205347_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/118969289/Laptop-MSI-Crosshair-15-B12UEZO,-i7-12700H,-16GB,-SSD1TB,-6GB-RTX3060,-FHD-15.6-,-W11/118969290?exp=linio"
+    },
+    {
+        "marca":"ASUS",
+        "equipo":"Asus STRIX G614JV-AS73 Intel Core I7 13650HX Ram 16GB Disco 512GB SSD Video",
+        "precio":"7,999",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_120907961_2848935_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/120907961/Asus-STRIX-G614JV-AS73-Intel-Core-I7-13650HX-Ram-16GB-Disco-512GB-SSD-Video-RTX4060-8GB-161%E2%80%B3-WUXGA/120907962?exp=linio"
+    },
+    {
+        "marca":"DELL",
+        "equipo":"LAPTOP DELL AMD RYZEN 5 3450U RAM 8GB SSD 256GB PANTALLA 14'' HD",
+        "precio":"1,389",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_120750885_2788532_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/120750885/LAPTOP-DELL-AMD-RYZEN-5-3450U-RAM-8GB-SSD-256GB-PANTALLA-14-HD/120750888?exp=linio"
+    },
+    {
+        "marca":"ASUS",
+        "equipo":"Laptop Gamer ASUS ROG Strix G17 AMD Ryzen 9 Serie 6000 16GB 1TB SSD 17.3''",
+        "precio":"9,899",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/882622956_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/882622956/Laptop-Gamer-ASUS-ROG-Strix-G17-AMD-Ryzen-9-Serie-6000-16GB-1TB-SSD-17.3-RTX-3070-Ti/882622956"
+    },
+    {
+        "marca":"LENOVO",
+        "equipo":"Chromebook LENOVO 100e Chromebook Celeron 4GB RAM 32 GB eMMC 11.6''",
+        "precio":"1,199",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/882344539_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/882344539/Chromebook-LENOVO-100e-Chromebook-Celeron-4GB-RAM-32-GB-eMMC-11.6-/882344539"
+    },
+    {
+        "marca":"ASUS",
+        "equipo":"Laptop Asus Vivobook Go 15 Intel Core i3 12va Gen 8GB RAM 256GB SSD 15.6''",
+        "precio":"1,699",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/882926982_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/882926982/Laptop-Asus-Vivobook-Go-15-Intel-Core-i3-12va-Gen-8GB-RAM-256GB-SSD-15.6-/882926982?rid=Recs%21PDP%21PE_F.com%21Rec1%21Vistos_Juntos_cyber%21Vistos_Juntos_cyber_Ctrl%21CAUUJJ3C77U65FNEJOQG%21882926982%213%2117"
+    },
+    {
+        "marca":"ASUS",
+        "equipo":"Asus Tuf Gaming F15 Intel Core I7-12700h 16gb 512ssd Rtx3050 15.6''",
+        "precio":"3,999",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/882958595_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/882958595/Asus-Tuf-Gaming-F15-Intel-Core-I7-12700h-16gb-512ssd-Rtx3050-15.6-/882958595?rid=Recs%21PDP%21PE_F.com%21Rec1%21Vistos_Juntos_cyber%21Vistos_Juntos_cyber_Ctrl%21CAUUMDJC77U5TKNG7F20%21882958595%2111%2117"
+    },
+    {
+        "marca":"ACER",
+        "equipo":"Laptop Gamer ACER Nitro Intel Core i7 11° Gen 16GB RAM 512 GB SSD 15.6'' RTX 3050 4GB",
+        "precio":"4,999",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/882758991_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/882758991/Laptop-Gamer-ACER-Nitro-Intel-Core-i7-11%C2%B0-Gen-16GB-RAM-512-GB-SSD-15.6''-RTX-3050-4GB/882758991?rid=Recs%21PDP%21PE_F.com%21Rec1%21Vistos_Juntos_cyber%21Vistos_Juntos_cyber_Ctrl%21CAUUMDJC77U5TKNG7F20%21882758991%2117%2117"
+    },
+    {
+        "marca":"ONN",
+        "equipo":"Laptop Convertible ONN 2-in-1 (13.3'') Core i3-8145U 2.1GHz, RAM 4 GB, SSD 128GB LED",
+        "precio":"1,250",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_119717028_2453673_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/119717028/Laptop-Convertible-ONN-2-in-1-(13.3-)-Core-i3-8145U-2.1GHz,-RAM-4-GB,-SSD-128GB-LED/119717030"
+    },
+    {
+        "marca":"LENOVO",
+        "equipo":"Laptop Lenovo V15 Core i5 8GB SSD 256GB + HDD 1TB FullHD 15.6 NVIDIA MX350 FreeDOS",
+        "precio":"2,390",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/113986790_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/113986789/Laptop-Lenovo-V15-Core-i5-8GB-SSD-256GB-+-HDD-1TB-FullHD-15.6-NVIDIA-MX350-FreeDOS/113986790"
+    },
+    {
+        "marca":"GIGABYTE",
+        "equipo":"LAPTOP Gigabyte G5 MD, 15.6'' LCD FHD IPS Core i5-11400H 2.7 / 4.5GHz",
+        "precio":"7,953",
+        "img": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_119308941_2299699_1?wid=800&hei=800&qlt=70",
+        "webpage": "https://www.falabella.com.pe/falabella-pe/product/119308941/LAPTOP-Gigabyte-G5-MD,-15.6-LCD-FHD-IPS-Core-i5-11400H-2.7-4.5GHz,-16GB-DDR4-3200MHz%C2%A0/119308942"
+    },
+    {
+        "marca":"LENOVO",
+        "equipo":"Laptop Ideapad Gaming3 AMD Ryzen 5 6600H 8Gb 512Gb SSD RTX 3050 15.6'' FHD",
+        "precio":"2,699",
+        "img": "https://s7d2.scene7.com/is/image/TottusPE/42937998_9?wid=800&hei=800&qlt=70",
+        "webpage": "https://tottus.falabella.com.pe/tottus-pe/product/116977545/nb-15-gam3-r5-6600h-8g-512g-rtx3050--mo/116977546?rid=Recs%21PDP%21PE_F.com%21Rec1%21Vistos_Juntos_cyber%21Vistos_Juntos_cyber_Ctrl%21CAUUMDJC77U5TKNG7F20%21116977546%2112%2118"
+    }
+
+]

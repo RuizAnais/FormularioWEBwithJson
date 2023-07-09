@@ -1,0 +1,139 @@
+.ocultar {
+    display: none;
+} 
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 13px;
+    margin-bottom: 30px;
+    color: black;
+}
+.mostrar {
+    display: block;
+}
+body{
+    background-image: url("/img/fmo.jpg");
+    background-size:200%;
+    
+} 
+#formulario {
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    width: 220px;
+    height: 520px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: -4px -4px 7px rgb(255, 0, 149) inset,
+                 8px 8px 10px rgb(223, 146, 238),
+                 -4px -4px 7px rgb(255, 0, 149);
+    margin-top: 70px;          
+
+}
+#contenidoDeLaWeb{
+    padding: 20px;
+    padding-top: 0;
+    
+}
+.resultado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header{
+   /* color:wheat; */
+   color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+   /* background-image: url("/img/f1.jpg"); */
+   border-bottom-style: solid;
+   margin-bottom: 25px;
+}
+.producto{
+    text-align: center;
+    border-style:dashed;
+    border-width: 2px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+    height: 360px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#passwordRegistrate {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#btnRegistrar, #btnIniciarSesion{
+    background-color: rgb(3, 7, 255);
+    color: white;
+    box-shadow: 3px 3px 5px rgb(114, 114, 116);
+    margin: 5px;
+    border-radius: 4px;
+    height: 28px;
+}
+#btnRegistrar:hover, #btnIniciarSesion:hover, #btnCerrarSesion:hover, #btnPublicar:hover{
+    background-color: rgb(242, 158, 253);
+    color: black;
+}
+
+#btnRegistrar:active, #btnIniciarSesion:active, #btnCerrarSesion:active, #btnPublicar:active{
+    transform: scale(0.5);
+}
+#btngoogle {
+    margin-right: 30px;
+
+}
+#btnfacebook {
+    margin-left: 30px;
+}
+#u {
+    margin-bottom: 25px;
+}
+#btnCerrarSesion {
+    background-color: rgb(3, 7, 255);
+    color: white;
+    box-shadow: 3px 3px 5px rgb(114, 114, 116);
+    margin: 5px;
+    border-radius: 4px;
+    height: 28px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+#carrito{
+margin-left: 950px;
+}
+#tit{
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#i1{
+    margin-top: 30px;
+}
+footer{
+    margin-top: 40px;
+}
+#txtdescripcion{
+    margin: 10px;
+}
+#txtcomentario{
+    margin: 10px;
+}
+#btnPublicar{
+    background-color: rgb(3, 7, 255);
+    color: white;
+    box-shadow: 3px 3px 5px rgb(114, 114, 116);
+    margin: 10px;
+    border-radius: 4px;
+    height: 28px;
+}
+#comentarios{
+    background-color: rgba(114, 162, 226, 0.8) ;
+    padding: 10px;
+    margin-top: 35px;
+    width: 500px;
+}

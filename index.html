@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" class="rel">
+    <title>Document</title>
+
+</head>
+<body>
+  
+    <form action="" id="formulario" class="mostrar">
+        <h2 style="color: white;">Identificate</h2>
+        <img id="u" src="img/u2.png" alt="user" height="150px" width="150px">
+        <br><br>
+        <input type="email"  placeholder="Escribe tu email" id="emailRegistrate">
+        <br><br>
+        <input type="password" placeholder="Escribe tu password" id="passwordRegistrate">
+        <br><br>
+        <input type="button" value="Registrar" id="btnRegistrar">
+        <input type="button" value="Iniciar Sesión" id="btnIniciarSesion">
+        <br><br>
+        <img id="btngoogle" src="img/gloglee.png" alt="google" height="40px" width="40px">
+        <img id="btnfacebook" src="img/fabu.png" alt="facebook" height="40px" width="40px">
+        
+    </form>
+
+    <div class="container ocultar" id="contenidoDeLaWeb">
+      
+      <header>
+        
+        <p id="tit"><b>LAS MEJORES OFERTAS Y LO ÚLTIMO EN TECNOLOGÍA.</b>
+        <img src="/img/c1.png" alt="carrito" id="carrito">
+        <input type="button" value="Cerrar Sesión" id="btnCerrarSesion">
+       </p>
+      </header>
+       
+       <div class="resultado" id="resultado"></div>
+
+      <!--  <div id="comentarios">
+          <h3 id="txttitulo">Escribe tu comentario</h3>
+          <input type="text" placeholder="Escribe la descripción" id="txtdescripcion"> <br>
+          <input type="text"placeholder="Escribe tu comentario" id="txtcomentario"> <br>
+          <input type="button" value="Publicar" id="btnPublicar"> 
+        </div> -->
+       
+       <footer>
+        <p id="i1"><img src="/img/sitio-web.png" alt="web"> https://superofertas.com.pe
+        </p>
+        <p><img src="img/ubicacion.png" alt="ubicación"> Av. Santa Cruz 361, Piso 5, Miraflores, Lima, Perú.
+          <p><img src="img/llamada-telefonica.png" alt="telefono"> 512-3333
+        </p>
+
+       </footer>
+     
+    </div>
+
+    <!-- Insertar el link de Firebase    /*opinion sobre los productos*/ -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    
+    <script type="module">
+        const firebaseConfig = {
+          apiKey: "AIzaSyADuHLoZ1Y8FkgaU1WkghGrtDmdzQM_LNc",
+          authDomain: "paginaweb1-37ad1.firebaseapp.com",
+          projectId: "paginaweb1-37ad1",
+          storageBucket: "paginaweb1-37ad1.appspot.com",
+          messagingSenderId: "523681928489",
+          appId: "1:523681928489:web:c70263ea003d2e004f5338"
+        }; 
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig); 
+        const auth = firebase.auth();
+
+        //llamando al Dom o al HTML
+
+        const btnRegistrar = document.getElementById('btnRegistrar');
+        const btnIniciarSesion = document.getElementById('btnIniciarSesion');
+        const formulario = document.getElementById('formulario');
+        const contenidoDeLaWeb = document.getElementById('contenidoDeLaWeb');
+        const btngoogle = document.getElementById('btngoogle');
+        const btnfacebook =document.getElementById('btnfacebook');
+
+
+        //FUNCIÓN REGISTRAR
+        btnRegistrar.addEventListener('click', ()=> {
+            let email = document.getElementById('emailRegistrate').value;
+            let password = document.getElementById('passwordRegistrate').value;
+
+         //   console.log("Hola");
+          //  console.log(email);
+          //  console.log(password);
+        
+        
+
+        firebase.auth().createUserWithEmailAndPassword(email, password)
+        .then((userCredential) => {
+          // Signed in
+        var user = userCredential.user;
+        console.log("Inicio de sesión correcto");
+        cargarJSON ();
+        formulario.classList.replace('mostrar','ocultar');
+        contenidoDeLaWeb.classList.replace('ocultar','mostrar'); 
+
+        // ...
+        })
+        .catch((error) => {
+       var errorCode = error.code;
+       var errorMessage = error.message;
+       alert(errorMessage);
+       console.log(errorMessage);
+       // ..
+       });
+    })
+        //Función Iniciar sesión
+        btnIniciarSesion.addEventListener('click',()=>{ //le digo que funcione cuando le de click
+            let email = document.getElementById('emailRegistrate').value;
+            let password = document.getElementById('passwordRegistrate').value;
+            
+
+            firebase.auth().signInWithEmailAndPassword(email, password)
+            .then((userCredential) => {
+            // Signed in
+            var user = userCredential.user;
+            cargarJSON ();
+            formulario.classList.replace('mostrar','ocultar');  //el formulario se oculta
+            contenidoDeLaWeb.classList.replace('ocultar','mostrar'); //y el contenido se ve
+            })
+            .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage);
+            console.log(errorMessage);
+    });
+})
+
+        //Función Cerrar Sesión
+        btnCerrarSesion.addEventListener('click',()=>{ //le digo que funcione cuando le de click
+            firebase.auth().signOut().then(() => {
+            // Sign-out successful.
+            console.log("Ha cerrado sesión correctamente");
+            contenidoDeLaWeb.classList.replace('mostrar','ocultar'); 
+            formulario.classList.replace('ocultar','mostrar');
+            }).catch((error) => {
+            // An error happened.
+            });     
+})
+
+        //Función Autenticar Estado
+        //estado activo o inactivo
+
+        firebase.auth().onAuthStateChanged((user) => {
+         if (user) {
+            formulario.classList.replace('mostrar','ocultar');
+            contenidoDeLaWeb.classList.replace('ocultar','mostrar'); 
+            console.log("Tu usuario esta activo");
+            cargarJSON();
+         var uid = user.uid;
+         // ...
+         } else {
+         // User is signed out
+            formulario.classList.replace('ocultar','mostrar');
+            contenidoDeLaWeb.classList.replace('mostrar','ocultar'); 
+         // ...
+         }
+});
+        //Función de google
+        btngoogle.addEventListener('click',function(){
+            //1.Crea una instancia del objeto del proveedor de Google:
+            var provider = new firebase.auth.GoogleAuthProvider();
+            //5.Autentica con Firebase a través del objeto del proveedor de Google
+            firebase.auth()
+            .signInWithPopup(provider)
+            .then((result) => {
+            var credential = result.credential;
+            console.log("Login con Google correcto");
+        // ...
+            }).catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            alert(errorMessage) //console.log reemplaza alert
+        // ...
+    });
+        })
+
+        //Función de facebook
+        btnfacebook.addEventListener('click', function () {
+            var provider = new firebase.auth.FacebookAuthProvider();
+            firebase
+                .auth()
+                .signInWithPopup(provider)
+                .then((result) => {
+                    var credential = result.credential;
+                    console.log("Login con Facebook correcto");
+                })
+                .catch((error) => {
+                    // Handle Errors here.
+                    var errorCode = error.code;
+                    var errorMessage = error.message;
+                    alert(errorMessage);
+                });
+
+        })
+
+        // Función llamar datos del Json
+       /* function cargarJSON() {
+        fetch("data.json")
+        .then(function(res){
+        return res.json();
+    })
+      .then((data) => {
+      console.log(data);
+   
+  })
+}  */
+ 
+       // Función llamar datos del Json
+       function cargarJSON () {
+  fetch("data.json")
+  .then(function(res){
+    return res.json();
+  })
+  .then((data) => {
+    console.log(data);
+    let html = '';
+    
+    data.forEach((productos) =>{
+      html += `
+        <div class="producto">
+          <h3>  ${productos.marca} </h3>
+          <p>  ${productos.equipo} </p>
+          <img src="${productos.img}" width="190px" class="imgProducto">
+         <br> 
+          <strong> S/.${productos.precio} </strong> 
+          <br> 
+          <a href="${productos.webpage}"> Ver detalles </a> 
+        </div>
+      `;
+    })
+    document.getElementById('resultado').innerHTML= html;
+    console.log("Llamado de Json correcto");
+  })
+}
+
+
+
+
+
+      </script>
+
+</body>
+</html>
